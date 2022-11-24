@@ -22,4 +22,4 @@ let myPromise = new Promise((resolve, reject) => {
 myPromise
     .then((data) => console.log("Data received : "+data))
         .catch((err) => {console.log("error message : "+err);})
-
+// Changes made
